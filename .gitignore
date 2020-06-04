@@ -48,8 +48,4 @@ fabric.properties
 .idea/
 
 
-/vendor/
-/cache/
-/logs/
-/app/settings.php
-
+/node_modules/
