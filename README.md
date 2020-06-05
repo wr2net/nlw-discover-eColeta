@@ -10,7 +10,8 @@ Executar o instalador do NodeJs e do Git
 
 <h4>Instalando e Iniciando</h4>
 1. npm install<br/>
-2. npm start
+2. node src/database/db.js
+3. npm start
 
 <h4>Para acessar</h4> 
 > localhost:3000
