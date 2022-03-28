@@ -1,17 +1,11 @@
-<h3>Para usuários Windows</h3>
-* NodeJS for Windows => https://nodejs.org/en/download/M<br/>
-* Git for Windows => https://gitforwindows.org/
-<br />
-Executar o instalador do NodeJs e do Git
+# Next Level Week 01 - Projeto e-coleta
+Projeto desenvolvido para o aprendizado de tecnologias como NodeJs fazendo o back-end da aplicação e o velho e bom HTML com CSS por cima.
 
-<h4>Testando</h4>
-* No terminal executar o comando "node -v"<br/>
-* No terminal executar o comando "npm -v"
 
-<h4>Instalando e Iniciando</h4>
-1. npm install<br/>
-2. node src/database/db.js<br />
-3. npm start
+## Instalando e Iniciando
+`$ npm install`
+`$ node src/database/db.js`
+`$ npm start`
 
-<h4>Para acessar</h4> 
-> localhost:3000
+## Para acessar
+`http://localhost:3000`
