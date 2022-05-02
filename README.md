@@ -4,8 +4,11 @@ Projeto desenvolvido para o aprendizado de tecnologias como NodeJs fazendo o bac
 
 ## Instalando e Iniciando
 `$ npm install`
+
 `$ node src/database/db.js`
+
 `$ npm start`
 
 ## Para acessar
+
 `http://localhost:3000`
