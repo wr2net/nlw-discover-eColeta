@@ -1,5 +1,5 @@
 {
-  "name": "NextLevelWeek",
+  "name": "wr2net/nlw-discover-eColeta",
   "version": "1.0.0",
   "description": "",
   "main": "src/server.js",
@@ -8,21 +8,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wr2net/NextLevelWeek.git"
+    "url": "https://github.com/wr2net/nlw-discover-eColeta"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wr2net/NextLevelWeek/issues"
+    "url": "https://github.com/wr2net/nlw-discover-eColeta/issues"
   },
-  "homepage": "https://github.com/wr2net/NextLevelWeek#readme",
+  "homepage": "https://github.com/wr2net/nlw-discover-eColeta#readme",
   "dependencies": {
     "express": "^4.18.1",
     "nunjucks": "^3.2.3",
     "sqlite3": "^5.0.6"
   },
   "devDependencies": {
-    "nodemon": "^2.0.16"
+    "nodemon": "^3.1.9"
   }
 }
