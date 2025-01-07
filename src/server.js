@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 // pegar o bando de dados
 const db = require("./database/db")
 
-// server.use(express.json());
+server.use(express.json());
 // configurar pasta pública
 server.use(express.static("public"))
 
@@ -78,5 +78,4 @@ server.get("/search-results", (req, res) => {
 
 //ligar o servidor
 server.listen(port)
-
-module.exports = server
+module.exports = server;

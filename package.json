@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node src/server.js"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/wr2net/nlw-discover-eColeta"
