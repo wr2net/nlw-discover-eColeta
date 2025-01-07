@@ -3,11 +3,17 @@ Projeto desenvolvido para o aprendizado de tecnologias como NodeJs fazendo o bac
 
 
 ## Instalando e Iniciando
-`$ npm install`
+```bash
+ npm install
+ ```
 
-`$ node src/database/db.js`
+```bash
+ node src/database/db.js
+ ```
 
-`$ npm start`
+```bash
+ npm start
+ ```
 
 ## Para acessar
 
