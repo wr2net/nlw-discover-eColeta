@@ -6,11 +6,12 @@ const port = process.env.PORT || 3000;
 // pegar o bando de dados
 const db = require("./database/db")
 
+// server.use(express.json());
 // configurar pasta pública
 server.use(express.static("public"))
 
 // habilitar o uso da req.body na nossa aplicação
-server.use(express.urlencoded({ extend: true }))
+server.use(express.urlencoded({ extended: true }));
 
 //utilizando template engine
 const nunjucks = require("nunjucks")
@@ -77,3 +78,5 @@ server.get("/search-results", (req, res) => {
 
 //ligar o servidor
 server.listen(port)
+
+module.exports = server
